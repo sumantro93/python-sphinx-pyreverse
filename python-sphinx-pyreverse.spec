@@ -18,11 +18,7 @@ BuildRequires:  python3dist(sphinx)
 
 %description
 Sphinx-pyreverse A simple sphinx extension to generate a UML diagram from
-python modules.Install Install with::: pip install -e git+ Add
-"sphinx_pyreverse" to the extensions list in your conf.py (make sure it is in
-the PYTHONPATH).Call the directive with path to python module as content. The
-:classes: and :packages: flags specify which UML diagrams to show.:: .. uml::
-{{modulename}} :classes:...
+python modules.
 
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
@@ -32,11 +28,7 @@ Requires:       python3dist(docutils)
 Requires:       python3dist(sphinx)
 %description -n python3-%{pypi_name}
 Sphinx-pyreverse A simple sphinx extension to generate a UML diagram from
-python modules.Install Install with::: pip install -e git+ Add
-"sphinx_pyreverse" to the extensions list in your conf.py (make sure it is in
-the PYTHONPATH).Call the directive with path to python module as content. The
-:classes: and :packages: flags specify which UML diagrams to show.:: .. uml::
-{{modulename}} :classes:...
+python modules.
 
 
 %prep
